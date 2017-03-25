@@ -201,5 +201,6 @@ class ClocksToolbar (Gtk.Toolbar):
 if __name__=="__main__":
     window = Window()
     window.connect("destroy", lambda w: Gtk.main_quit())
+    
     Gtk.main()
 
